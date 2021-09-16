@@ -9,6 +9,8 @@ brew install rsync
 ```
 ssh-keygen
 
+ssh-copy-id ec2-user@ec2-18-223-133-30.us-east-2.compute.amazonaws.com
+
 ```
 
 -- mount
