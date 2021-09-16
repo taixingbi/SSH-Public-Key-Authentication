@@ -1,3 +1,9 @@
+
+####
+```
+rsync
+```
+
 ##### install in amazon linux
 ```
 -- install
