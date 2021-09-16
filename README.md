@@ -1,7 +1,12 @@
 
-####
+#### rsync
 ```
-rsync
+brew install rsync
+
+rsync -av — progress -e “ssh -i /path_to/your_public_key.pem/” 
+/absolute_path_to/local_files/ remote_server_root@public_DNS:/absolut_path/remote_directory_destination
+
+rsync -av — progress -e  ssh -i /Users/h/kindom/perm.pem /Users/h/Documents/work/local-host/ ec2-user@ec2-18-223-133-30.us-east-2.compute.amazonaws.com:/home/ec2-user/share/
 ```
 
 ##### install in amazon linux
